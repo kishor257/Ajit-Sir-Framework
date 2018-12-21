@@ -1,5 +1,6 @@
 package scripts;
 import org.apache.logging.log4j.LogManager;
+
 import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
@@ -10,7 +11,7 @@ import generic.BaseTest;
 import pompages.LoginPage;
 
 public class TestValidLogin extends BaseTest {
-	@Test
+	@Test (priority=1)
 	public void testValidLogin(){
 		
 		Logger log = LogManager.getLogger(TestValidLogin.class.getName());

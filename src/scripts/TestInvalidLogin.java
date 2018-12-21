@@ -6,7 +6,7 @@ import generic.BaseTest;
 import generic.Lib;
 import pompages.LoginPage;
 public class TestInvalidLogin extends BaseTest{
-	@Test
+	@Test (priority=2)
 	public void testInvalidLogin(){
 		Logger log = LogManager.getLogger(TestInvalidLogin.class.getName());
 		log.debug("creating an object of LoginPage pom class");

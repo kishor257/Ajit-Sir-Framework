@@ -3,13 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
   <test name="Test(failed)">
     <classes>
-      <class name="scripts.TestInvalidLogin">
+      <class name="scripts.abc">
         <methods>
-          <include name="launchApplication"/>
-          <include name="testInvalidLogin"/>
-          <include name="closeApplication"/>
+          <include name="a"/>
         </methods>
-      </class> <!-- scripts.TestInvalidLogin -->
+      </class> <!-- scripts.abc -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

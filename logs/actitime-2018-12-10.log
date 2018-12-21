@@ -1,0 +1,6 @@
+02:43:28.485 [main] INFO  scripts.TestValidLogin - Username admin entered successfully..
+02:43:36.708 [main] DEBUG scripts.TestInvalidLogin - creating an object of LoginPage pom class
+02:43:36.708 [main] DEBUG scripts.TestInvalidLogin - Retrieving the total number of active rows
+02:43:36.708 [main] DEBUG scripts.TestInvalidLogin - Active rows fetched successfully...
+17:55:47.089 [main] DEBUG scripts.TestValidLogin - creating an object of LoginPage pom class
+17:55:47.174 [main] INFO  scripts.TestValidLogin - LoginPage pom class object created successfully..
