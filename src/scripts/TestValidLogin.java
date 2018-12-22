@@ -26,7 +26,7 @@ public class TestValidLogin extends BaseTest {
 		lp.setPassword("manager");
 		//click on Login button
 		lp.clickLogin();
-		
+		log.info("login process ended today by shashank");
 		WebDriverWait   wait = new WebDriverWait(driver, 10);
 		wait.until(ExpectedConditions.titleIs("actiTIME - Enter Time-Track"));
 		
@@ -34,5 +34,6 @@ public class TestValidLogin extends BaseTest {
 		SoftAssert sa = new SoftAssert();
 		sa.assertEquals(actHomePageTitle, "actiTIME - Enter Time-Track");
 		sa.assertAll();
+		
 	}
 }
