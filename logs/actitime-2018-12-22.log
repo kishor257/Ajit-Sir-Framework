@@ -1,6 +1,6 @@
-00:23:44.066 [main] DEBUG scripts.TestValidLogin - creating an object of LoginPage pom class
-00:23:44.117 [main] INFO  scripts.TestValidLogin - LoginPage pom class object created successfully..
-00:23:44.117 [main] DEBUG scripts.TestValidLogin - Enter user name as admin
-00:23:44.156 [main] INFO  scripts.TestValidLogin - Username admin entered successfully..
-00:23:52.134 [main] DEBUG scripts.TestInvalidLogin - creating an object of LoginPage pom class
-00:23:52.134 [main] DEBUG scripts.TestInvalidLogin - Retrieving the total number of active rows
+16:32:50.843 [main] FATAL scripts.Abc - shashank u didnt created any line here
+16:32:57.909 [main] DEBUG scripts.TestValidLogin - creating an object of LoginPage pom class
+16:32:57.941 [main] INFO  scripts.TestValidLogin - LoginPage pom class object created successfully..
+16:32:57.941 [main] DEBUG scripts.TestValidLogin - Enter user name as admin
+16:32:57.985 [main] INFO  scripts.TestValidLogin - Username admin entered successfully..
+16:32:59.372 [main] INFO  scripts.TestValidLogin - login process ended today by shashank
