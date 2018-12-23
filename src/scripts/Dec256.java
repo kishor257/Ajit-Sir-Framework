@@ -1,5 +1,5 @@
 package scripts;
 
-public class Dec25 {
+public class Dec256 {
 
 }
