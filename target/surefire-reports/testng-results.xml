@@ -2,41 +2,26 @@
 <testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="32542" started-at="2018-12-22T11:02:42Z" finished-at="2018-12-22T11:03:14Z">
+  <suite name="Suite" duration-ms="24210" started-at="2018-12-23T00:21:16Z" finished-at="2018-12-23T00:21:40Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="32542" started-at="2018-12-22T11:02:42Z" finished-at="2018-12-22T11:03:14Z">
-      <class name="scripts.Abc">
-        <test-method status="PASS" signature="launchApplication()[pri:0, instance:scripts.Abc@5056dfcb]" name="launchApplication" is-config="true" duration-ms="7726" started-at="2018-12-22T16:32:42Z" finished-at="2018-12-22T16:32:50Z">
+    <test name="Test" duration-ms="24210" started-at="2018-12-23T00:21:16Z" finished-at="2018-12-23T00:21:40Z">
+      <class name="scripts.TestProductVersion">
+        <test-method status="PASS" signature="pub()[pri:3, instance:scripts.TestProductVersion@6574b225]" name="pub" duration-ms="0" started-at="2018-12-23T05:51:40Z" finished-at="2018-12-23T05:51:40Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- launchApplication -->
-        <test-method status="PASS" signature="testAbc()[pri:0, instance:scripts.Abc@5056dfcb]" name="testAbc" duration-ms="710" started-at="2018-12-22T16:32:50Z" finished-at="2018-12-22T16:32:50Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testAbc -->
-        <test-method status="PASS" signature="closeApplication(org.testng.ITestResult)[pri:0, instance:scripts.Abc@5056dfcb]" name="closeApplication" is-config="true" duration-ms="1054" started-at="2018-12-22T16:32:50Z" finished-at="2018-12-22T16:32:51Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=testAbc status=SUCCESS method=Abc.testAbc()[pri:0, instance:scripts.Abc@5056dfcb] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeApplication -->
-      </class> <!-- scripts.Abc -->
+        </test-method> <!-- pub -->
+      </class> <!-- scripts.TestProductVersion -->
       <class name="scripts.TestValidLogin">
-        <test-method status="PASS" signature="launchApplication()[pri:0, instance:scripts.TestValidLogin@2669b199]" name="launchApplication" is-config="true" duration-ms="6000" started-at="2018-12-22T16:32:51Z" finished-at="2018-12-22T16:32:57Z">
+        <test-method status="PASS" signature="launchApplication()[pri:0, instance:scripts.TestValidLogin@2669b199]" name="launchApplication" is-config="true" duration-ms="7808" started-at="2018-12-23T05:51:16Z" finished-at="2018-12-23T05:51:24Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchApplication -->
-        <test-method status="PASS" signature="testValidLogin()[pri:1, instance:scripts.TestValidLogin@2669b199]" name="testValidLogin" duration-ms="1527" started-at="2018-12-22T16:32:57Z" finished-at="2018-12-22T16:32:59Z">
+        <test-method status="PASS" signature="testValidLogin()[pri:1, instance:scripts.TestValidLogin@2669b199]" name="testValidLogin" duration-ms="2168" started-at="2018-12-23T05:51:24Z" finished-at="2018-12-23T05:51:26Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testValidLogin -->
-        <test-method status="PASS" signature="closeApplication(org.testng.ITestResult)[pri:0, instance:scripts.TestValidLogin@2669b199]" name="closeApplication" is-config="true" duration-ms="1269" started-at="2018-12-22T16:32:59Z" finished-at="2018-12-22T16:33:00Z">
+        <test-method status="PASS" signature="closeApplication(org.testng.ITestResult)[pri:0, instance:scripts.TestValidLogin@2669b199]" name="closeApplication" is-config="true" duration-ms="1210" started-at="2018-12-23T05:51:26Z" finished-at="2018-12-23T05:51:27Z">
           <params>
             <param index="0">
               <value>
@@ -49,19 +34,19 @@
         </test-method> <!-- closeApplication -->
       </class> <!-- scripts.TestValidLogin -->
       <class name="scripts.TestInvalidLogin">
-        <test-method status="PASS" signature="launchApplication()[pri:0, instance:scripts.TestInvalidLogin@6574b225]" name="launchApplication" is-config="true" duration-ms="6375" started-at="2018-12-22T16:33:00Z" finished-at="2018-12-22T16:33:07Z">
+        <test-method status="PASS" signature="launchApplication()[pri:0, instance:scripts.TestInvalidLogin@5056dfcb]" name="launchApplication" is-config="true" duration-ms="4804" started-at="2018-12-23T05:51:27Z" finished-at="2018-12-23T05:51:32Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchApplication -->
-        <test-method status="PASS" signature="testInvalidLogin()[pri:2, instance:scripts.TestInvalidLogin@6574b225]" name="testInvalidLogin" duration-ms="6750" started-at="2018-12-22T16:33:07Z" finished-at="2018-12-22T16:33:13Z">
+        <test-method status="PASS" signature="testInvalidLogin()[pri:2, instance:scripts.TestInvalidLogin@5056dfcb]" name="testInvalidLogin" duration-ms="7082" started-at="2018-12-23T05:51:32Z" finished-at="2018-12-23T05:51:39Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testInvalidLogin -->
-        <test-method status="PASS" signature="closeApplication(org.testng.ITestResult)[pri:0, instance:scripts.TestInvalidLogin@6574b225]" name="closeApplication" is-config="true" duration-ms="1103" started-at="2018-12-22T16:33:13Z" finished-at="2018-12-22T16:33:14Z">
+        <test-method status="PASS" signature="closeApplication(org.testng.ITestResult)[pri:0, instance:scripts.TestInvalidLogin@5056dfcb]" name="closeApplication" is-config="true" duration-ms="1106" started-at="2018-12-23T05:51:39Z" finished-at="2018-12-23T05:51:40Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=testInvalidLogin status=SUCCESS method=TestInvalidLogin.testInvalidLogin()[pri:2, instance:scripts.TestInvalidLogin@6574b225] output={null}]]]>
+                <![CDATA[[TestResult name=testInvalidLogin status=SUCCESS method=TestInvalidLogin.testInvalidLogin()[pri:2, instance:scripts.TestInvalidLogin@5056dfcb] output={null}]]]>
               </value>
             </param>
           </params>

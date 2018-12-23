@@ -4,3 +4,4 @@ pompages\LoginPage.class
 scripts\TestInvalidLogin.class
 generic\Lib.class
 scripts\TestValidLogin.class
+scripts\TestProductVersion.class
