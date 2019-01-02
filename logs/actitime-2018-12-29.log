@@ -1,0 +1,6 @@
+22:37:39.196 [main] INFO  scripts.TestValidLogin - login process ended today by shashank
+22:37:47.469 [main] DEBUG scripts.TestInvalidLogin - creating an object of LoginPage pom class
+22:37:47.470 [main] DEBUG scripts.TestInvalidLogin - Retrieving the total number of active rows
+22:37:47.470 [main] DEBUG scripts.TestInvalidLogin - Active rows fetched successfully...
+22:38:51.194 [main] DEBUG scripts.TestInvalidLogin - creating an object of LoginPage pom class
+22:38:51.228 [main] DEBUG scripts.TestInvalidLogin - Retrieving the total number of active rows
