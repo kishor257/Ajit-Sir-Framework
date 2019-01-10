@@ -2,26 +2,26 @@
 <testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="67857" started-at="2019-01-02T17:43:49Z" finished-at="2019-01-02T17:44:56Z">
+  <suite name="Suite" duration-ms="83465" started-at="2019-01-10T19:52:33Z" finished-at="2019-01-10T19:53:57Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="67857" started-at="2019-01-02T17:43:49Z" finished-at="2019-01-02T17:44:56Z">
+    <test name="Test" duration-ms="83465" started-at="2019-01-10T19:52:33Z" finished-at="2019-01-10T19:53:57Z">
       <class name="scripts.TestProductVersion">
-        <test-method status="PASS" signature="pub()[pri:3, instance:scripts.TestProductVersion@6574b225]" name="pub" duration-ms="0" started-at="2019-01-02T23:14:56Z" finished-at="2019-01-02T23:14:56Z">
+        <test-method status="PASS" signature="pub()[pri:3, instance:scripts.TestProductVersion@6574b225]" name="pub" duration-ms="0" started-at="2019-01-11T01:23:57Z" finished-at="2019-01-11T01:23:57Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- pub -->
       </class> <!-- scripts.TestProductVersion -->
       <class name="scripts.TestValidLogin">
-        <test-method status="PASS" signature="launchApplication()[pri:0, instance:scripts.TestValidLogin@2669b199]" name="launchApplication" is-config="true" duration-ms="39947" started-at="2019-01-02T23:13:49Z" finished-at="2019-01-02T23:14:29Z">
+        <test-method status="PASS" signature="launchApplication()[pri:0, instance:scripts.TestValidLogin@2669b199]" name="launchApplication" is-config="true" duration-ms="48799" started-at="2019-01-11T01:22:33Z" finished-at="2019-01-11T01:23:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchApplication -->
-        <test-method status="PASS" signature="testValidLogin()[pri:1, instance:scripts.TestValidLogin@2669b199]" name="testValidLogin" duration-ms="7299" started-at="2019-01-02T23:14:29Z" finished-at="2019-01-02T23:14:36Z">
+        <test-method status="PASS" signature="testValidLogin()[pri:1, instance:scripts.TestValidLogin@2669b199]" name="testValidLogin" duration-ms="7708" started-at="2019-01-11T01:23:22Z" finished-at="2019-01-11T01:23:30Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testValidLogin -->
-        <test-method status="PASS" signature="closeApplication(org.testng.ITestResult)[pri:0, instance:scripts.TestValidLogin@2669b199]" name="closeApplication" is-config="true" duration-ms="2027" started-at="2019-01-02T23:14:36Z" finished-at="2019-01-02T23:14:38Z">
+        <test-method status="PASS" signature="closeApplication(org.testng.ITestResult)[pri:0, instance:scripts.TestValidLogin@2669b199]" name="closeApplication" is-config="true" duration-ms="2575" started-at="2019-01-11T01:23:30Z" finished-at="2019-01-11T01:23:32Z">
           <params>
             <param index="0">
               <value>
@@ -34,15 +34,15 @@
         </test-method> <!-- closeApplication -->
       </class> <!-- scripts.TestValidLogin -->
       <class name="scripts.TestInvalidLogin">
-        <test-method status="PASS" signature="launchApplication()[pri:0, instance:scripts.TestInvalidLogin@5056dfcb]" name="launchApplication" is-config="true" duration-ms="9644" started-at="2019-01-02T23:14:38Z" finished-at="2019-01-02T23:14:47Z">
+        <test-method status="PASS" signature="launchApplication()[pri:0, instance:scripts.TestInvalidLogin@5056dfcb]" name="launchApplication" is-config="true" duration-ms="12880" started-at="2019-01-11T01:23:32Z" finished-at="2019-01-11T01:23:45Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchApplication -->
-        <test-method status="PASS" signature="testInvalidLogin()[pri:2, instance:scripts.TestInvalidLogin@5056dfcb]" name="testInvalidLogin" duration-ms="7890" started-at="2019-01-02T23:14:47Z" finished-at="2019-01-02T23:14:55Z">
+        <test-method status="PASS" signature="testInvalidLogin()[pri:2, instance:scripts.TestInvalidLogin@5056dfcb]" name="testInvalidLogin" duration-ms="10122" started-at="2019-01-11T01:23:45Z" finished-at="2019-01-11T01:23:55Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testInvalidLogin -->
-        <test-method status="PASS" signature="closeApplication(org.testng.ITestResult)[pri:0, instance:scripts.TestInvalidLogin@5056dfcb]" name="closeApplication" is-config="true" duration-ms="1022" started-at="2019-01-02T23:14:55Z" finished-at="2019-01-02T23:14:56Z">
+        <test-method status="PASS" signature="closeApplication(org.testng.ITestResult)[pri:0, instance:scripts.TestInvalidLogin@5056dfcb]" name="closeApplication" is-config="true" duration-ms="1274" started-at="2019-01-11T01:23:55Z" finished-at="2019-01-11T01:23:57Z">
           <params>
             <param index="0">
               <value>
