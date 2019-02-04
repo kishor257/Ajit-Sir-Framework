@@ -1,31 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="83465" started-at="2019-01-10T19:52:33Z" finished-at="2019-01-10T19:53:57Z">
+  <suite name="Suite" duration-ms="111648" started-at="2019-01-25T18:38:40Z" finished-at="2019-01-25T18:40:32Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="83465" started-at="2019-01-10T19:52:33Z" finished-at="2019-01-10T19:53:57Z">
-      <class name="scripts.TestProductVersion">
-        <test-method status="PASS" signature="pub()[pri:3, instance:scripts.TestProductVersion@6574b225]" name="pub" duration-ms="0" started-at="2019-01-11T01:23:57Z" finished-at="2019-01-11T01:23:57Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- pub -->
-      </class> <!-- scripts.TestProductVersion -->
+    <test name="Test" duration-ms="111648" started-at="2019-01-25T18:38:40Z" finished-at="2019-01-25T18:40:32Z">
       <class name="scripts.TestValidLogin">
-        <test-method status="PASS" signature="launchApplication()[pri:0, instance:scripts.TestValidLogin@2669b199]" name="launchApplication" is-config="true" duration-ms="48799" started-at="2019-01-11T01:22:33Z" finished-at="2019-01-11T01:23:22Z">
+        <test-method status="PASS" signature="launchApplication()[pri:0, instance:scripts.TestValidLogin@5056dfcb]" name="launchApplication" is-config="true" duration-ms="60589" started-at="2019-01-26T00:08:40Z" finished-at="2019-01-26T00:09:41Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchApplication -->
-        <test-method status="PASS" signature="testValidLogin()[pri:1, instance:scripts.TestValidLogin@2669b199]" name="testValidLogin" duration-ms="7708" started-at="2019-01-11T01:23:22Z" finished-at="2019-01-11T01:23:30Z">
+        <test-method status="PASS" signature="testValidLogin()[pri:1, instance:scripts.TestValidLogin@5056dfcb]" name="testValidLogin" duration-ms="8014" started-at="2019-01-26T00:09:41Z" finished-at="2019-01-26T00:09:49Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testValidLogin -->
-        <test-method status="PASS" signature="closeApplication(org.testng.ITestResult)[pri:0, instance:scripts.TestValidLogin@2669b199]" name="closeApplication" is-config="true" duration-ms="2575" started-at="2019-01-11T01:23:30Z" finished-at="2019-01-11T01:23:32Z">
+        <test-method status="PASS" signature="closeApplication(org.testng.ITestResult)[pri:0, instance:scripts.TestValidLogin@5056dfcb]" name="closeApplication" is-config="true" duration-ms="2511" started-at="2019-01-26T00:09:49Z" finished-at="2019-01-26T00:09:51Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=testValidLogin status=SUCCESS method=TestValidLogin.testValidLogin()[pri:1, instance:scripts.TestValidLogin@2669b199] output={null}]]]>
+                <![CDATA[[TestResult name=testValidLogin status=SUCCESS method=TestValidLogin.testValidLogin()[pri:1, instance:scripts.TestValidLogin@5056dfcb] output={null}]]]>
               </value>
             </param>
           </params>
@@ -34,19 +28,19 @@
         </test-method> <!-- closeApplication -->
       </class> <!-- scripts.TestValidLogin -->
       <class name="scripts.TestInvalidLogin">
-        <test-method status="PASS" signature="launchApplication()[pri:0, instance:scripts.TestInvalidLogin@5056dfcb]" name="launchApplication" is-config="true" duration-ms="12880" started-at="2019-01-11T01:23:32Z" finished-at="2019-01-11T01:23:45Z">
+        <test-method status="PASS" signature="launchApplication()[pri:0, instance:scripts.TestInvalidLogin@32e6e9c3]" name="launchApplication" is-config="true" duration-ms="27115" started-at="2019-01-26T00:09:51Z" finished-at="2019-01-26T00:10:18Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchApplication -->
-        <test-method status="PASS" signature="testInvalidLogin()[pri:2, instance:scripts.TestInvalidLogin@5056dfcb]" name="testInvalidLogin" duration-ms="10122" started-at="2019-01-11T01:23:45Z" finished-at="2019-01-11T01:23:55Z">
+        <test-method status="PASS" signature="testInvalidLogin()[pri:2, instance:scripts.TestInvalidLogin@32e6e9c3]" name="testInvalidLogin" duration-ms="11983" started-at="2019-01-26T00:10:18Z" finished-at="2019-01-26T00:10:30Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testInvalidLogin -->
-        <test-method status="PASS" signature="closeApplication(org.testng.ITestResult)[pri:0, instance:scripts.TestInvalidLogin@5056dfcb]" name="closeApplication" is-config="true" duration-ms="1274" started-at="2019-01-11T01:23:55Z" finished-at="2019-01-11T01:23:57Z">
+        <test-method status="PASS" signature="closeApplication(org.testng.ITestResult)[pri:0, instance:scripts.TestInvalidLogin@32e6e9c3]" name="closeApplication" is-config="true" duration-ms="1404" started-at="2019-01-26T00:10:30Z" finished-at="2019-01-26T00:10:32Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=testInvalidLogin status=SUCCESS method=TestInvalidLogin.testInvalidLogin()[pri:2, instance:scripts.TestInvalidLogin@5056dfcb] output={null}]]]>
+                <![CDATA[[TestResult name=testInvalidLogin status=SUCCESS method=TestInvalidLogin.testInvalidLogin()[pri:2, instance:scripts.TestInvalidLogin@32e6e9c3] output={null}]]]>
               </value>
             </param>
           </params>
