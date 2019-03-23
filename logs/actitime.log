@@ -1,1 +1,5 @@
-14:02:39.530 [main] DEBUG scripts.TestInvalidLogin - Active rows fetched successfully...
+00:19:20.796 [main] INFO  scripts.TestValidLogin - Username admin entered successfully..
+00:19:22.379 [main] INFO  scripts.TestValidLogin - login process ended today by shashank
+00:19:28.385 [main] DEBUG scripts.TestInvalidLogin - creating an object of LoginPage pom class
+00:19:28.385 [main] DEBUG scripts.TestInvalidLogin - Retrieving the total number of active rows
+00:19:28.385 [main] DEBUG scripts.TestInvalidLogin - Active rows fetched successfully...
